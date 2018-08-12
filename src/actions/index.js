@@ -32,9 +32,9 @@ export function createMessage(channel, author, content) {
   };
 }
 
-export function selectChannel(channel) {
-  return {
-    type: CHANNEL_SELECTED,
-    payload: channel
-  };
-}
+// export function selectChannel(channel) {
+//   return {
+//     type: CHANNEL_SELECTED,
+//     payload: channel
+//   };
+// }
